@@ -66,7 +66,7 @@ void menu()
 	printf("******************************\n");
 	printf("Please input:");
 }
-
+//初始化
 void InitContact(pContact pCon)
 {
 	pCon->data = (pPeoInfo)malloc(DEFAULT_CAPACITY*sizeof(PeoInfo));
