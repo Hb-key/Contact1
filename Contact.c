@@ -114,8 +114,8 @@ void Add(pContact pCon)
 	scanf("%s", pCon->data[pCon->size].addre);
 	pCon->size++;
 }
-
-static int Find(const pContact pCon)
+/
+static     int     Find（const     pContact    pCon）
 {
 	int i = 0;
 	char name[NAME_MAX] = { 0 };
